@@ -1,0 +1,44 @@
+html{
+    width: 100vw;
+    height: 100%;
+}
+/* hide scroll bar */
+
+body {
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    height: 100%;
+    width: 100vw;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+/* My mini Bootstrap */
+.d-flex{
+display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+
+/* my Class */
