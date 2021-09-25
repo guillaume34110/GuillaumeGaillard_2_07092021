@@ -6,27 +6,27 @@ html{
 }
 a{
     font-size:14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 h2{
-    font-size:15px;
-    font-weight:bold ;
+    font-size:21px;
+    font-weight:800 ;
     margin :  0;
 }
 h3{
     font-size:17px;
-    font-weight:bold ;
+    font-weight:800 ;
     margin : 0;
 }
 h4{
     font-size:16px;
-    font-weight:bold ;
+    font-weight:800 ;
     margin : 0;
 }
 p{
     margin : 0 ;
     font-size: 16px;
-    font-weight:500;
+    font-weight:600;
 }
 .input{
     border : 1px  solid #F2F2F2 ;
@@ -178,7 +178,7 @@ height : 70px;
 .img-card{
     overflow: hidden;
     height : 190px;
-    width : 245px;
+    width : 235px;
     border-radius : 15px ;
     border : 6px solid white;
     background-color: white;
@@ -192,10 +192,41 @@ height : 70px;
     border : 4px solid white;
     background-color: white;
 }
-.hebergement-img{
+.hebergement-img-a{
     position: absolute ;
-    top : -20px;
-    width:255px;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-b{
+    position: absolute ;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-c{
+    position: absolute ;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-d{
+    position: absolute ;
+    top : -57px;
+    left : -5px;
+    width:245px;
+}
+.hebergement-img-e{
+    position: absolute ;
+    top : -12px;
+    left : -5px;
+    width:245px;
+}
+.hebergement-img-f{
+    position: absolute ;
+    top : -127px;
+    left : -5px;
+    width:245px;
 }
 .populaire-img{
     position: absolute ;
@@ -208,7 +239,7 @@ height : 428px;
 .hebergement-img-contenair{
     overflow:hidden;
     position : relative;
-    width :260px ;
+    width :250px ;
     height :115px;
      margin-bottom: 8px;
 }
@@ -226,32 +257,32 @@ height : 428px;
     position: absolute;
     height: 100%;
 }
-.activite-img-small-contenair-g{
+.activite-img-small-contenair-pomegue{
     position: relative;
     overflow:hidden;
-    width :22vw ;
-    height :12vw;
+    width :300px ;
+    height :180px;
     border-radius:20px 20px 0px 0px;
 }
-.activite-img-small-contenair-f{
+.activite-img-small-contenair-frioul{
     position: relative;
     overflow:hidden;
-    width :22vw ;
-    height :8vw;
+    width :300px ;
+    height :110px;
     border-radius:20px 20px 0px 0px;
 }
-.activite-img-small-contenair-n{
+.activite-img-small-contenair-notre{
     position: relative;
     overflow:hidden;
-    width :22vw ;
-    height :9vw;
+    width :300px ;
+    height :140px;
     border-radius:20px 20px 0px 0px;
 }
-.activite-img-small-contenair-l{
+.activite-img-small-contenair-longchamp{
     position: relative;
     overflow:hidden;
-    width :22vw ;
-    height :11vw;
+    width :300px ;
+    height :155px;
     border-radius:20px 20px 0px 0px;
 }
 
@@ -263,9 +294,10 @@ height : 428px;
 .activite-img-big-contenair{
     position: relative;
     overflow:hidden;
-    width :22vw ;
-    height :25vw;
+    width :300px ;
+    height :390px;
     border-radius:20px 20px 0px 0px;
+
 }
 .navigation{
     padding: 0px 20px 20px 20px ;
