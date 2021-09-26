@@ -207,9 +207,10 @@ height : 70px;
     max-height: 80px;
 }
 .footer{
-    height :220px;
+    height :175px;
     background :#F2F2F2;
     padding : 45px 25% 0vh 55px;
+    margin-top: 60px;
 }
 .img-card{
     overflow: hidden;
