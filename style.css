@@ -125,6 +125,9 @@ display: flex;
 .ml-24px{
     margin-left: 24px;
 }
+.mb-20px{
+    margin-bottom: 20px;
+}
 .mb-30px{
     margin-bottom: 15px;
 }
@@ -546,6 +549,9 @@ padding: 0 25px 0 20px;
 .first-title{
     margin : 40px  0 0 0;
 }
+.first-p{
+    margin : 9px 0px 35px 0px;
+}
 .nav{
     padding :0  20px  0 20px ;
 }
@@ -585,4 +591,172 @@ button{
 .filtres-title{
     align-self: flex-start;
     }
+#hebergement{
+    flex-direction: column-reverse ;
+}
+.populaire{
+    padding : 40px 20px 45px 20px  ;
+    margin : 0 ;
+    border-radius: 0;
+    height : 505px ;
+    justify-content:space-between;
+    
+}
+.pop-card{
+    width :325px;
+    border : 5px solid white;
+}
+.hebergement{
+
+    background-color : transparent;
+    padding : 40px 20px 35px 20px  ;
+    margin : 0 ;
+    height: 1400px;
+}
+.img-card{
+    width : 323px;
+    background :white;
+    border : 5px solid white;
+}
+.hebergement-img-contenair{
+    width : 323px;
+    overflow: hidden;
+    
+}
+.hebergement-imgs {
+    position: relative;
+    top: -0px;
+     height: 1270px; 
+}
+.hebergement-img-a{
+    position: absolute ;
+    top : -55px;
+    left : -10px;
+    width:330px;
+}
+.hebergement-img-b{
+    position: absolute ;
+    top : -50px;
+    left : 0px;
+    width:330px;
+}
+.hebergement-img-c{
+    position: absolute ;
+    top : -50px;
+    left : 0px;
+    width:330px;
+}
+.hebergement-img-d{
+    position: absolute ;
+    top : -95px;
+    left : -5px;
+    width:330px;
+}
+.hebergement-img-e{
+    position: absolute ;
+    top : -35px;
+    left : -2px;
+    width:330px;
+}
+.hebergement-img-f{
+    position: absolute ;
+    top : -190px;
+    left : -2px;
+    width:330px;
+}
+.activite{
+    margin : 20px 20px 0 20px ;
+    height: 1330px;
+}
+.activites-imgs{
+    height: 1290px;
+}
+.activite-img-large-a{
+    position: absolute;
+    top:-20px;
+    left:0px;
+    width : 335px;
+}
+.activite-img-b{
+    position: absolute;
+    top:-155px;
+    left:-0px;
+    width : 335px;
+}
+.activite-img-c{
+    position: absolute;
+    top:-16px;
+    left:-0px;
+    width : 335px;
+}
+.activite-img-large-d{
+    position: absolute;
+    top:-15px;
+    left:0px;
+    width : 335px;
+    filter: contrast(0.7) brightness(1.4) saturate(1.2);
+    
+}
+.activite-img-e{
+    position: absolute;
+    top:-12px;
+    left:-0px;
+    width : 335px;
+}
+.activite-img-f{
+    position: absolute;
+    top:-30px;
+    left:-0px;
+    width : 335px;
+}
+.activite-img-small-contenair-pomegue{
+    position: relative;
+    overflow:hidden;
+    width :335px ;
+    height :135px;
+    border-radius:20px 20px 0px 0px;
+    
+}
+.activite-img-small-contenair-frioul{
+    position: relative;
+    overflow:hidden;
+    width :335px ;
+    height :135px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-small-contenair-notre{
+    position: relative;
+    overflow:hidden;
+    width :335px ;
+    height :135px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-small-contenair-longchamp{
+    position: relative;
+    overflow:hidden;
+    width :335px ;
+    height :135px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-big-contenair{
+    position: relative;
+    overflow:hidden;
+    width :335px ;
+    height :135px;
+    border-radius:20px 20px 0px 0px;
+    margin-top: 20px;
+}
+.activite-img-footer{
+    
+}
+.shadow{
+    height :fit-content
+}
+.footer{
+    flex-direction: column;
+    height :395px;
+    background :#F2F2F2;
+    padding : 45px 0 45px 30px;
+    margin-top: 60px;
+}
   }
