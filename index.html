@@ -16,22 +16,26 @@
 </head>
 
 <body>
-    <header >
+
+    <header>
         <div class="d-flex justify-content-between header ">
-        <img class=" self-end" src="./assets/logo/Reservia.svg" alt="Logo Reservia" height="45">
-        <div class=" d-flex top-link justify-content-between h-90px">
-            <div class=" h-50px w-100 d-flex  justify-content-between ">
-                <a class=" navigation active d-flex align-items-end h-60px big-screen" href="#hebergement">Hébergements</a>
-                <a class=" navigation d-flex align-items-end h-60px  big-screen" href="#activites">Activités</a>
-                <a class="inscrire  text-blue fw-800  d-flex align-items-end h-60px">S'inscrire</a>
+            <img class=" self-end" src="./assets/logo/Reservia.svg" alt="Logo Reservia" height="45">
+            <div class=" d-flex top-link justify-content-between h-90px">
+                <div class=" h-50px w-100 d-flex  justify-content-between ">
+                    <a class=" navigation active d-flex align-items-end h-60px big-screen"
+                        href="#hebergement">Hébergements</a>
+                    <a class=" navigation d-flex align-items-end h-60px  big-screen" href="#activites">Activités</a>
+                    <a class="inscrire  text-blue fw-800  d-flex align-items-end h-60px">S'inscrire</a>
+                </div>
             </div>
         </div>
-    </div>
-        <div class = "mobile-nav">
-            <a class=" navigation active d-flex align-items-end h-60px small-screen" href="#hebergement">Hébergements</a>
-                <a class=" navigation d-flex align-items-end h-60px small-screen" href="#activites">Activités</a>
+        <div class="mobile-nav">
+            <a class=" navigation active d-flex align-items-end h-60px small-screen"
+                href="#hebergement">Hébergements</a>
+            <a class=" navigation d-flex align-items-end h-60px small-screen" href="#activites">Activités</a>
         </div>
     </header>
+
     <nav class="d-flex flex-column justify-content-around  nav">
         <h2 class="first-title">Trouvez votre hébergement pour des vacances de rêve</h2>
         <p class="first-p ">En plein centre ville ou en pleine nature</p>
@@ -41,47 +45,46 @@
             </div>
             <input class="input" value="Marseille,France" type="text" name="name" minlength="4" maxlength="22"
                 size="28">
-            <button class="" type="button"><span class ="research">Rechercher</span><i class="fas fa-search fa-lg"></i>  </button>
+            <button class="" type="button"><span class="research">Rechercher</span><i class="fas fa-search fa-lg"></i>
+            </button>
         </div>
         <div class=" d-flex align-items-center filtres-container  ">
             <h3 class=" mr-30px filtres-title">Filtres</h3>
-            <div class = "d-flex flex-wrap">
-            <div class=" d-flex align-items-center filtres">
-                <div class="blue-circle d-flex justify-content-center align-items-center">
-                    <i class="fas fa-money-bill-wave fa-s icon-blue icon-bill"></i>
+            <div class="d-flex flex-wrap">
+                <div class=" d-flex align-items-center filtres">
+                    <div class="blue-circle d-flex justify-content-center align-items-center">
+                        <i class="fas fa-money-bill-wave fa-s icon-blue icon-bill"></i>
+                    </div>
+                    <h3 class=" ml-10px text-start">Economique</h3>
                 </div>
-                <h3 class=" ml-10px text-start">Economique</h3>
-            </div>
-            <div class=" d-flex align-items-center ml-24px filtres">
-                <div class="blue-circle d-flex justify-content-center align-items-center">
-                    <i class="fas fa-child icon-filtre icon-blue"></i>
+                <div class=" d-flex align-items-center ml-24px filtres">
+                    <div class="blue-circle d-flex justify-content-center align-items-center">
+                        <i class="fas fa-child icon-filtre icon-blue"></i>
+                    </div>
+                    <h3 class=" ml-10px text-start">Familial</h3>
                 </div>
-                <h3 class=" ml-10px text-start">Familial</h3>
-            </div>
-
-            <div class=" d-flex align-items-center ml-24px filtres">
-                <div class="blue-circle d-flex justify-content-center align-items-center">
-                    <i class="fas fa-heart icon-filtre icon-blue"></i>
+                <div class=" d-flex align-items-center ml-24px filtres">
+                    <div class="blue-circle d-flex justify-content-center align-items-center">
+                        <i class="fas fa-heart icon-filtre icon-blue"></i>
+                    </div>
+                    <h3 class=" ml-10px text-start">Romantique</h3>
                 </div>
-                <h3 class=" ml-10px text-start">Romantique</h3>
-            </div>
-
-            <div class=" d-flex align-items-center ml-24px filtres">
-                <div class="blue-circle d-flex justify-content-center align-items-center">
-                    <i class="fas fa-dog icon-filtre icon-blue"></i>
+                <div class=" d-flex align-items-center ml-24px filtres">
+                    <div class="blue-circle d-flex justify-content-center align-items-center">
+                        <i class="fas fa-dog icon-filtre icon-blue"></i>
+                    </div>
+                    <h3 class=" ml-10px text-start">Animaux autorisés</h3>
                 </div>
-                <h3 class=" ml-10px text-start">Animaux autorisés</h3>
             </div>
         </div>
-    </div>
         <div class=" d-flex align-items-center info">
             <div class="icon-info  d-flex align-items-center justify-content-center  ">
                 <i class="fas fa-info fa-xs  icon-blue"></i>
             </div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-        
     </nav>
+
     <section id="hebergement" class="d-flex flex-wrap justify-content-between ">
         <div class="d-flex flex-column hebergement justify-content-between">
             <h2 class=" ">Hébergements à Marseille</h2>
@@ -90,7 +93,7 @@
                     <div class="hebergement-img-contenair">
                         <img class="hebergement-img-a"
                             src="./assets/hebergements/2_large_compressed/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                             alt=" photographie d'un lit superposé avec un rayon de soleil">
+                            alt=" photographie d'un lit superposé avec un rayon de soleil">
                     </div>
                     <div class="d-flex h-65px pl-15px flex-column justify-content-around">
                         <h4 class=" ">Auberge la Cannebière</h4>
@@ -158,7 +161,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="img-card shadow">
                     <div class="hebergement-img-contenair">
                         <img class="hebergement-img-e"
@@ -198,6 +200,7 @@
             </div>
             <h3 class="  ">Afficher plus</h3>
         </div>
+
         <div class="d-flex flex-column  populaire ">
             <div style="font-size: 1.2rem;" class="d-flex w-100 align-items-center justify-content-between mb-20px">
                 <h2>Les plus populaires</h2>
@@ -221,7 +224,6 @@
                             <i class="fas fa-star fa-xs icon-blue nearest2"></i>
                             <i class="fas fa-star fa-xs icon-blue nearest3"></i>
                             <i class="fas fa-star fa-xs icon-blue nearest4"></i>
-
                         </div>
                     </div>
                 </div>
@@ -242,7 +244,6 @@
                             <i class="fas fa-star fa-xs icon-blue nearest2"></i>
                             <i class="fas fa-star fa-xs icon-blue nearest3"></i>
                             <i class="fas fa-star fa-xs icon-grey nearest4"></i>
-
                         </div>
                     </div>
                 </div>
@@ -269,83 +270,82 @@
                 </div>
             </div>
         </div>
-       
     </section>
-    <section id="activites" class="d-flex flex-column activite  justify-content-around ">
 
+    <section id="activites" class="d-flex flex-column activite  justify-content-around ">
         <h2 class="mb-30px ">Activités à Marseille</h2>
         <div class="d-flex flex-wrap activites-imgs justify-content-between ">
-            <div class ="activite-a  d-flex justify-content-between">
-            <div class="shadow">
-                <div class="activite-img-big-contenair activite-img-contenair">
-                    <img class="activite-img-large-a"
-                        src="./assets/activites/2_large_compressed/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                        alt="photographie du vieux port">
+            <div class="activite-a  d-flex justify-content-between">
+                <div class="shadow">
+                    <div class="activite-img-big-contenair activite-img-contenair">
+                        <img class="activite-img-large-a"
+                            src="./assets/activites/2_large_compressed/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="photographie du vieux port">
+                    </div>
+                    <div class="activite-img-footer d-flex align-items-center">
+                        <h4>Vieux Port</h4>
+                    </div>
                 </div>
-                <div class="activite-img-footer d-flex align-items-center">
-                    <h4>Vieux Port</h4>
+                <div class=" d-flex flex-column justify-content-between activite-c">
+                    <div class="shadow">
+                        <div class="activite-img-small-contenair-pomegue activite-img-contenair">
+                            <img class="activite-img-b"
+                                src="./assets/activites/2_large_compressed/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="photographie du fort de Pomègues">
+                        </div>
+                        <div class="activite-img-footer d-flex align-items-center">
+                            <h4>Fort de Pomègues</h4>
+                        </div>
+                    </div>
+                    <div class="shadow">
+                        <div class="activite-img-small-contenair-frioul activite-img-contenair">
+                            <img class="activite-img-c"
+                                src="./assets/activites/2_large_compressed/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="photographie des îles du frioul">
+                        </div>
+                        <div class="activite-img-footer d-flex align-items-center">
+                            <h4>îles du frioul</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class=" d-flex flex-column justify-content-between activite-c">
+            <div class="activite-b  d-flex justify-content-between">
                 <div class="shadow">
-                    <div class="activite-img-small-contenair-pomegue activite-img-contenair">
-                        <img class="activite-img-b"
-                            src="./assets/activites/2_large_compressed/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                            alt="photographie du fort de Pomègues">
+                    <div class="activite-img-big-contenair activite-img-contenair">
+                        <img class="activite-img-large-d"
+                            src="./assets/activites/2_large_compressed/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="photographie du parc national des Calanques">
                     </div>
                     <div class="activite-img-footer d-flex align-items-center">
-                        <h4>Fort de Pomègues</h4>
+                        <h4>Parc National des Calanques</h4>
                     </div>
                 </div>
-                <div class="shadow">
-                    <div class="activite-img-small-contenair-frioul activite-img-contenair">
-                        <img class="activite-img-c"
-                            src="./assets/activites/2_large_compressed/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                            alt="photographie des îles du frioul">
+                <div class=" d-flex flex-column justify-content-between activite-c activite-img-contenair">
+                    <div class="shadow">
+                        <div class="activite-img-small-contenair-notre activite-img-contenair">
+                            <img class="activite-img-e"
+                                src="./assets/activites/2_large_compressed/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="photographie de Notre-Dame-de-la-Garde">
+                        </div>
+                        <div class="activite-img-footer d-flex align-items-center">
+                            <h4>Notre-Dame-de-la-Garde</h4>
+                        </div>
                     </div>
-                    <div class="activite-img-footer d-flex align-items-center">
-                        <h4>îles du frioul</h4>
+                    <div class="shadow">
+                        <div class="activite-img-small-contenair-longchamp activite-img-contenair">
+                            <img class="activite-img-f"
+                                src="./assets/activites/2_large_compressed/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                alt="photographie du parc Lonchamp">
+                        </div>
+                        <div class="activite-img-footer d-flex align-items-center">
+                            <h4>Parc Lonchamp</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class ="activite-b  d-flex justify-content-between">
-            <div class="shadow">
-                <div class="activite-img-big-contenair activite-img-contenair">
-                    <img class="activite-img-large-d"
-                        src="./assets/activites/2_large_compressed/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                        alt="photographie du parc national des Calanques">
-                </div>
-                <div class="activite-img-footer d-flex align-items-center">
-                    <h4>Parc National des Calanques</h4>
-                </div>
-            </div>
-            <div class=" d-flex flex-column justify-content-between activite-c activite-img-contenair">
-                <div class="shadow">
-                    <div class="activite-img-small-contenair-notre activite-img-contenair">
-                        <img class="activite-img-e"
-                            src="./assets/activites/2_large_compressed/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                            alt="photographie de Notre-Dame-de-la-Garde">
-                    </div>
-                    <div class="activite-img-footer d-flex align-items-center">
-                        <h4>Notre-Dame-de-la-Garde</h4>
-                    </div>
-                </div>
-                <div class="shadow">
-                    <div class="activite-img-small-contenair-longchamp activite-img-contenair">
-                        <img class="activite-img-f"
-                            src="./assets/activites/2_large_compressed/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                            alt="photographie du parc Lonchamp">
-                    </div>
-                    <div class="activite-img-footer d-flex align-items-center">
-                        <h4>Parc Lonchamp</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
     </section>
+
     <footer class="d-flex footer align-items-start justify-content-between ">
         <div class="d-flex flex-column ">
             <h3 class=" mb-30px">A propos</h3>
@@ -363,8 +363,8 @@
             <a class=" mb-30px">Centre d'aide</a>
             <a>Nous contacter</a>
         </div>
-
     </footer>
+    
 </body>
 
 </html>
