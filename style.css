@@ -408,6 +408,11 @@ border-top :2px solid  #0065FC
 .text-blue{
     color : #0065FC;
 }
+.research{
+    margin : 0 ;
+    font-size: 16px;
+    font-weight:600;
+}
 .icon-research{
     background: #F2F2F2;
     width :50px;
