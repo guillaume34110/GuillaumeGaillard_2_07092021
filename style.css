@@ -297,12 +297,11 @@ height : 70px;
     align-self: flex-start;
 }
 .activite-a{
-    padding-right: 2.7vw;
-    width :645px;
+    padding-right: 2.7%;
+    width :48%;
 }
 .activite-b{
-
-    width :645px;
+    width :48%;
 }
 .activite-img{
     position: absolute;
