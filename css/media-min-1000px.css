@@ -1,0 +1,158 @@
+@media screen and (max-width: 1439px) and (min-width: 1000px)  {
+    #hebergement{
+         justify-content : space-around;
+     }
+     .hebergement{
+         margin : 0  0 0 0px;
+         padding : 41px 20px 43px 20px;
+         max-width:550px;
+         height: 750px;
+     }
+     .hebergement-imgs {
+         justify-content:space-around;
+         min-width:500px;
+         position: relative;
+         top: -0px;
+          height: 630px; 
+     }
+     .populaire{
+        
+        margin: 0 0px 0 0px;
+        padding : 41px 20px 150px 20px;
+        align-items: center;
+         justify-content:space-around;
+         
+     }
+     .pop-card{
+         width :325px;
+         border : 5px solid white;
+     }
+    
+     .populaire-imgs{
+         height: 550px;;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         flex-direction:column;
+         align-items: center;
+     }
+     .activite{
+         margin : 70px 0px 0 0px ;
+        width : 100vw;
+     }
+     .activite h2{
+         margin-left: 40px;
+         align-self: flex-start;
+     }
+ 
+     .activites-imgs{
+         align-self:center;
+     flex-direction:column;
+     justify-content: space-around;
+     height: 750px;
+     width :100vw;
+     }
+     .activite-img-large-a{
+         position: absolute;
+         top:-20px;
+         left:0px;
+         width : 335px;
+     }
+     .activite-img-b{
+         position: absolute;
+         top:-155px;
+         left:-0px;
+         width : 335px;
+     }
+     .activite-img-c{
+         position: absolute;
+         top:-16px;
+         left:-0px;
+         width : 335px;
+     }
+     .activite-img-large-d{
+         position: absolute;
+         top:-15px;
+         left:0px;
+         width : 335px;
+         filter: contrast(0.7) brightness(1.4) saturate(1.2);
+         
+     }
+     .activite-img-e{
+         position: absolute;
+         top:-12px;
+         left:-0px;
+         width : 335px;
+     }
+     .activite-img-f{
+         position: absolute;
+         top:-30px;
+         left:-0px;
+         width : 335px;
+     }
+     .activite-img-small-contenair-pomegue{
+         position: relative;
+         overflow:hidden;
+         width :335px ;
+         height :135px;
+         border-radius:20px 20px 0px 0px;
+         
+     }
+     .activite-img-small-contenair-frioul{
+         position: relative;
+         overflow:hidden;
+         width :335px ;
+         height :135px;
+         border-radius:20px 20px 0px 0px;
+     }
+     .activite-img-small-contenair-notre{
+         position: relative;
+         overflow:hidden;
+         width :335px ;
+         height :135px;
+         border-radius:20px 20px 0px 0px;
+     }
+     .activite-img-small-contenair-longchamp{
+         position: relative;
+         overflow:hidden;
+         width :335px ;
+         height :135px;
+         border-radius:20px 20px 0px 0px;
+     }
+     .activite-img-big-contenair{
+         position: relative;
+         overflow:hidden;
+         width :335px ;
+         height :135px;
+         border-radius:20px 20px 0px 0px;
+         margin-top: 0px;
+     }
+     .shadow{
+         height :fit-content
+     }
+     .activite-a{
+         flex-direction:column;
+         justify-content:space-between;
+         align-items: center;
+         padding:0;
+         height : 650px;
+         width:49%;
+     }
+     .activite-b{
+         flex-direction:column;
+         justify-content:space-between;
+         align-items: center;
+         padding:0;
+         height : 650px;
+         width:49%;
+     }
+     .activite-c{
+         justify-content:space-between;
+     
+     height:420px;
+     }
+     .activite-d{
+         justify-content:space-between;
+         
+         height:420px;
+     }
+   }

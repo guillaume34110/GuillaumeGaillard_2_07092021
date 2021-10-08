@@ -1,0 +1,381 @@
+.header{
+    padding : 0vh 75px 0vh 55px ;
+    height: 90px;
+}
+.footer{
+    height :175px;
+    background :#F2F2F2;
+    padding : 45px 25% 0vh 55px;
+    margin-top: 60px;
+}
+.img-card{
+    overflow: hidden;
+    height : 189px;
+    width : 235px;
+    border-radius : 15px ;
+    border : 6px solid white;
+    background-color: white;
+    margin-bottom : 0px;
+    cursor: pointer;
+}
+.img-card:hover .hebergement-img-contenair{
+    filter: brightness(1.05);
+    transition: 0.3s ease-in-out;
+}
+.first-title{
+    margin : 38px  0 0px 0;
+}
+.p-card{
+    font-size :14px
+}
+.pop-card{
+    overflow: hidden;
+    height : 133px;
+    width : 337px;
+    border-radius : 15px ;
+    border : 6px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+.pop-card:hover .populaire-img-contenair{
+    filter: brightness(1.05);
+    transition: 0.3s ease-in-out;
+}
+.hebergement-img-a{
+    position: absolute ;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-b{
+    position: absolute ;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-c{
+    position: absolute ;
+    top : -25px;
+    left : -10px;
+    width:250px;
+}
+.hebergement-img-d{
+    position: absolute ;
+    top : -57px;
+    left : -5px;
+    width:245px;
+}
+.hebergement-img-e{
+    position: absolute ;
+    top : -12px;
+    left : -5px;
+    width:245px;
+}
+.hebergement-img-f{
+    position: absolute ;
+    top : -127px;
+    left : -5px;
+    width:245px;
+}
+.populaire-img-a{
+    position: absolute ;
+    top : -6px;
+    left : -47px;
+    width:220px;
+}
+.populaire-img-b{
+    position: absolute ;
+    top : -6px;
+    left : -33px;
+    width:195px;
+}
+.populaire-img-c{
+    position: absolute ;
+    top : -40px;
+    left : -7px;
+    width:140px;
+}
+.populaire-imgs{
+    position : relative;
+    top : 10px;
+    height : 500px;
+    
+}
+.hebergement-imgs{
+    position : relative;
+    top : -10px;
+    height : 431px;
+    
+}
+.hebergement-img-contenair{
+    overflow:hidden;
+    position : relative;
+    width :250px ;
+    height :115px;
+     margin-bottom: 8px;
+     transition: 0.3s ease-in-out;
+}
+.populaire-img-contenair{
+    overflow:hidden;
+    position : relative;
+    width :128px ;
+    height :137px;
+    transition: 0.3s ease-in-out;
+}
+.activites-imgs{
+    
+    width:100%;
+}
+.activite h2{
+    align-self: flex-start;
+}
+.activite-a{
+    padding-right: 2.7%;
+    width :48%;
+}
+.activite-b{
+    width :48%;
+}
+.activite-img{
+    position: absolute;
+    width:100%;
+}
+
+.activite-img-large-a{
+    position: absolute;
+    top:0px;
+    left:-180px;
+    width : 660px;
+}
+.activite-img-b{
+    position: absolute;
+    top:-105px;
+    left:-0px;
+    width : 300px;
+}
+.activite-img-c{
+    position: absolute;
+    top:-16px;
+    left:-0px;
+    width : 300px;
+}
+.activite-img-large-d{
+    position: absolute;
+    top:0px;
+    left:-180px;
+    width : 660px;
+    filter: contrast(0.7) brightness(1.4) saturate(1.2);
+    
+}
+.activite-img-e{
+    position: absolute;
+    top:1px;
+    left:-0px;
+    width : 300px;
+}
+.activite-img-f{
+    position: absolute;
+    top:-5px;
+    left:-0px;
+    width : 300px;
+}
+.activite-img-small-contenair-pomegue{
+    position: relative;
+    overflow:hidden;
+    width :300px ;
+    height :180px;
+    border-radius:20px 20px 0px 0px;
+    
+}
+.activite-img-small-contenair-frioul{
+    position: relative;
+    overflow:hidden;
+    width :300px ;
+    height :110px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-small-contenair-notre{
+    position: relative;
+    overflow:hidden;
+    width :300px ;
+    height :140px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-small-contenair-longchamp{
+    position: relative;
+    overflow:hidden;
+    width :300px ;
+    height :155px;
+    border-radius:20px 20px 0px 0px;
+}
+.activite-img-contenair{
+    transition: 0.3s ease-in-out;
+}
+.shadow:hover .activite-img-contenair{
+    filter: brightness(1.05);
+    
+    transition: 0.3s ease-in-out;
+}
+.shadow:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+.activite-img-footer{
+    padding-left :10px;
+    height :55px;
+    border-radius:0px 0px 20px 20px ;
+}
+.activite-img-big-contenair{
+    position: relative;
+    overflow:hidden;
+    width :300px ;
+    height :390px;
+    border-radius:20px 20px 0px 0px;
+}
+.navigation{
+    padding: 0px 20px 20px 20px ;
+    border-top :2px solid  transparent ;  
+    color: black;
+}
+a:hover{
+    opacity :0.7;
+}
+.inscrire{
+    padding: 0px 0px 20px 20px ;
+    border-top :2px solid  transparent  ; 
+}
+.top-link{
+    width : 410px;
+    
+}
+.active{
+color : #0065FC;
+border-top :2px solid  #0065FC
+}
+.text-blue{
+    color : #0065FC;
+}
+.research{
+    margin : 0 ;
+    font-size: 16px;
+    font-weight:600;
+}
+.icon-research{
+    background: #F2F2F2;
+    width :50px;
+    height:50px;
+    border-radius: 12px 0px 0px 12px;
+}
+.icon-info{
+    border : 2px  solid  #F2F2F2;
+    width :24px;
+    height:24px;
+    border-radius:100% ;
+    margin-right: 12px;
+}
+.info{
+ margin : 35px 0px 35px 0px ;
+}
+.icon-blue{
+    color : #0065FC;
+}
+.icon-grey{
+    color : #D9D9D9;
+}
+.icon-filtre{
+     font-size : 20px;
+}
+.icon-bill{
+    font-size : 20px;
+    transform :scaleX(0.7)
+}
+.nearest1{
+    position : relative;
+    left : -2px;
+}
+.nearest2{
+    position : relative;
+    left : -4px;
+}
+.nearest3{
+    position : relative;
+    left : -6px;
+}
+.nearest4{
+    position : relative;
+    left : -8px;
+}
+.filtres-container{
+margin-top : 30px
+}
+.filtres{
+    position : relative;
+    padding-left : 53px;
+    padding-right :18px;
+    border: 2px solid #D9D9D9;
+    border-radius: 48px;
+    height :46px;
+    width : 190;
+    z-index : 0;
+    cursor: pointer;
+}
+.filtres:hover{
+    background: #deebff46;
+}
+.blue-circle{
+    position : absolute;
+    background: #DEEBFF ;
+    left: -2px;
+    height :50px;
+    width :50px;
+    border-radius: 50%;
+    z-index : 2 
+}
+.nav{
+    padding : 0vh 0vw 0vh 55px ;
+}
+.hebergement{
+    padding : 41px 40px 43px 40px;
+    margin : 0 0vw 0vh 50px ;
+    height : 541px;
+    max-width : 800px;
+    background : #F2F2F2;
+    border-radius: 15px;
+}
+.populaire{
+    padding : 41px 35px 35px 35px;
+    max-width : 420px;
+    margin : 0 50px 0 40px ;
+    background : #F2F2F2;
+    border-radius: 15px;
+}
+.activite{
+    margin : 70px 50px 0 50px ;
+}
+.pop-p{
+    position: relative;
+    top : -20px;
+    left:8px;
+}
+.pop-width{
+    
+    width :160px;
+    padding : 5px 0px 5px 20px
+}
+
+.mcard-5px{
+    margin : 5px 0px 5px 12px ;
+}
+.first-p{
+    margin : 8px 0px 17px 0px;
+}
+
+.shadow{
+    transition: 0.3s ease-in-out;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    cursor: pointer;
+}
+.mobile-nav ,.fa-search{
+    display: none;
+}

@@ -1,0 +1,270 @@
+
+ @media screen and (max-width: 820px) and (min-width: 501px)  {
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display :flex ;
+        align-items : center;
+        justify-content : center;
+        height: 30px ;
+        border-top :none ;  
+        border-bottom :3px solid  #f2f2f2 ;  
+        width : 50%;
+        padding : 20px  0 10px 0 ;
+        text-align: right;
+    }
+    .active{
+        color : #0065FC;
+        border-bottom :3px solid  #0065FC
+        }
+    .mobile-nav{
+        display: flex;
+    }
+    .header{
+    padding: 0 25px 0 20px;
+    }
+    .inscrire{
+        width :fit-content;
+        padding :0 0 15px 0 ;
+        max-height: 55px;
+    }
+    .top-link{
+        width :fit-content;
+    }
+    .first-title{
+        margin : 40px  0 0 0;
+    }
+    .first-p{
+        margin : 9px 0px 35px 0px;
+    }
+    .nav{
+        padding :0  20px  0 20px ;
+    }
+    .input{
+        padding-left : 18px ;
+        width : 220px;
+    }
+    .research{
+        display: none;
+    }
+    button{
+        width : 50px;
+        border-radius:  12px ;
+        padding : 0 0px 0 0px ;
+        cursor: pointer;
+        
+    }
+    
+    .fa-search{
+        color : white;
+        display: block;
+        padding : 0 16px ;
+        font-size :1.1rem;
+    }
+    .filtres-container{
+        flex-direction: column;
+    }
+    .filtres{
+        padding-left : 48px;
+        padding-right :18px;
+        margin: 14px 10px 0 0 ;
+    }
+    
+    .filtres h3 {
+        font-size : 16px;
+    }
+    .filtres-title{
+        align-self: flex-start;
+    }
+    .info{
+        position : relative;
+    }
+    .icon-info {
+    position : absolute;
+    top:-5px;
+    
+    }
+    .info p{
+        margin-left :38px;
+    }
+
+    .fa-chart-line{
+    font-size: 1.4em;
+    transform: scaleX(0.8);
+    
+    }
+    .populaire{
+        padding : 40px 20px 45px 20px  ;
+        margin : 0 0 40px 0 ;
+        height : 505px ;
+        justify-content:space-between;
+        align-self: center;
+    }
+    .pop-card{
+        width :325px;
+        border : 5px solid white;
+    }
+    .populaire-imgs{
+        align-items: center;
+    }
+    #hebergement{
+        flex-direction: column-reverse ;
+        justify-content : space-between;
+        align-items:center;
+        width : 100%;
+    }
+    .hebergement{
+        margin : 0  0 40px 0px;
+        padding : 41px 0px 43px 0px;
+        min-width:500px;
+        max-width:650px;
+        height: 750px;
+    }
+    .hebergement h2 {
+        margin-left: 20px;
+    }
+    .hebergement h3 {
+        margin-left: 20px;
+    }
+    .hebergement-imgs {
+        position: relative;
+        top: -0px;
+         height: 630px; 
+         justify-content :space-around
+    }
+    .activite{
+        margin : 10px 10px 0 10px ;
+        height: 1330px;
+        align-items: center;
+        
+    }
+    .activite h2{
+        margin-left: 10px;
+        align-self: flex-start;
+    }
+    .activites-imgs{
+        min-width: 500px;
+        flex-direction: column;
+        justify-content: center;
+        height: 1250px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .mb-30px{
+        margin-bottom: 10px;
+        
+    }
+    .activite-img-large-a{
+        position: absolute;
+        top:-20px;
+        left:0px;
+        width : 335px;
+    }
+    .activite-img-b{
+        position: absolute;
+        top:-155px;
+        left:-0px;
+        width : 335px;
+    }
+    .activite-img-c{
+        position: absolute;
+        top:-16px;
+        left:-0px;
+        width : 335px;
+    }
+    .activite-img-large-d{
+        position: absolute;
+        top:-15px;
+        left:0px;
+        width : 335px;
+        filter: contrast(0.7) brightness(1.4) saturate(1.2);
+        
+    }
+    .activite-img-e{
+        position: absolute;
+        top:-12px;
+        left:-0px;
+        width : 335px;
+    }
+    .activite-img-f{
+        position: absolute;
+        top:-30px;
+        left:-0px;
+        width : 335px;
+    }
+    .activite-img-small-contenair-pomegue{
+        position: relative;
+        overflow:hidden;
+        width :335px ;
+        height :135px;
+        border-radius:20px 20px 0px 0px;
+        
+    }
+    .activite-img-small-contenair-frioul{
+        position: relative;
+        overflow:hidden;
+        width :335px ;
+        height :135px;
+        border-radius:20px 20px 0px 0px;
+    }
+    .activite-img-small-contenair-notre{
+        position: relative;
+        overflow:hidden;
+        width :335px ;
+        height :135px;
+        border-radius:20px 20px 0px 0px;
+    }
+    .activite-img-small-contenair-longchamp{
+        position: relative;
+        overflow:hidden;
+        width :335px ;
+        height :135px;
+        border-radius:20px 20px 0px 0px;
+    }
+    .activite-img-big-contenair{
+        position: relative;
+        overflow:hidden;
+        width :335px ;
+        height :135px;
+        border-radius:20px 20px 0px 0px;
+       
+    }
+    .activite-a{
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+        padding:0;
+        width: 100%;
+        height : 650px
+    }
+    .activite-b{
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+        padding:0;
+        width: 100%;
+        margin-top : 30px;
+        height : 650px
+    }
+    .activite-c{
+        justify-content:space-between;
+    
+    height:400px;
+    }
+    .activite-d{
+        justify-content:space-between;
+        
+        height:400px;
+    }
+    .shadow{
+        height :fit-content
+    }
+    .footer{
+        flex-direction: column;
+        height :395px;
+        background :#F2F2F2;
+        padding : 45px 0 45px 30px;
+        margin-top: 60px;
+    }
+  }
