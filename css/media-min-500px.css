@@ -24,10 +24,11 @@
     .header{
     padding: 0 25px 0 20px;
     }
-    .inscrire{
-        width :fit-content;
-        padding :0 0 15px 0 ;
+    
+    .inscrire{        
         max-height: 55px;
+        justify-self: flex-end;
+        margin-right: 5vw;
     }
     .top-link{
         width :fit-content;

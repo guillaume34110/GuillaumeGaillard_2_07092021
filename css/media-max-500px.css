@@ -26,6 +26,11 @@
     .mobile-nav{
         display: flex;
     }
+    .inscrire{        
+        justify-self: flex-end;
+        margin-left: 5vw;
+        max-height: 55px;
+    }
     .header{
     padding: 0 25px 0 20px;
     }

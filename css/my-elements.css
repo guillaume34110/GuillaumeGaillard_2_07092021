@@ -18,6 +18,7 @@
     margin-bottom : 0px;
     cursor: pointer;
 }
+
 .img-card:hover .hebergement-img-contenair{
     filter: brightness(1.05);
     transition: 0.3s ease-in-out;

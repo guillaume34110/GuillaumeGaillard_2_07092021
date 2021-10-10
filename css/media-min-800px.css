@@ -63,6 +63,7 @@
     }
     .filtres-container{
         flex-direction: column;
+       
     }
     .filtres{
         padding-left : 48px;
