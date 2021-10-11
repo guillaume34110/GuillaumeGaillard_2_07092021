@@ -59,18 +59,25 @@ main{
 }
 /* hide scroll bar */
 
-body {
+html {
   
     overflow: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    
     height: 100%;
     width: 100vw;
 }
-::-webkit-scrollbar {
+html{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scrollbar-color: transparent transparent;
+}
+html ::-webkit-scrollbar {
     display: none;
   }
-
+html  ::-moz-scrollbar {
+    display: none;
+   
+  }
 
 
 
