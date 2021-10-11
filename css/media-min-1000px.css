@@ -52,25 +52,21 @@
      width :100vw;
      }
      .activite-img-large-a{
-         position: absolute;
          top:-20px;
          left:0px;
          width : 335px;
      }
      .activite-img-b{
-         position: absolute;
          top:-155px;
          left:-0px;
          width : 335px;
      }
      .activite-img-c{
-         position: absolute;
          top:-16px;
          left:-0px;
          width : 335px;
      }
      .activite-img-large-d{
-         position: absolute;
          top:-15px;
          left:0px;
          width : 335px;
@@ -78,52 +74,31 @@
          
      }
      .activite-img-e{
-         position: absolute;
          top:-12px;
          left:-0px;
          width : 335px;
      }
      .activite-img-f{
-         position: absolute;
          top:-30px;
          left:-0px;
          width : 335px;
      }
      .activite-img-small-contenair-pomegue{
-         position: relative;
-         overflow:hidden;
          width :335px ;
          height :135px;
-         border-radius:20px 20px 0px 0px;
          
      }
-     .activite-img-small-contenair-frioul{
-         position: relative;
-         overflow:hidden;
+     .activite-img-small-contenair-frioul,
+     .activite-img-small-contenair-notre,
+     .activite-img-small-contenair-longchamp,
+     .activite-img-big-contenair
+     {
          width :335px ;
          height :135px;
-         border-radius:20px 20px 0px 0px;
      }
-     .activite-img-small-contenair-notre{
-         position: relative;
-         overflow:hidden;
-         width :335px ;
-         height :135px;
-         border-radius:20px 20px 0px 0px;
-     }
-     .activite-img-small-contenair-longchamp{
-         position: relative;
-         overflow:hidden;
-         width :335px ;
-         height :135px;
-         border-radius:20px 20px 0px 0px;
-     }
+   
+     
      .activite-img-big-contenair{
-         position: relative;
-         overflow:hidden;
-         width :335px ;
-         height :135px;
-         border-radius:20px 20px 0px 0px;
          margin-top: 0px;
      }
      .shadow{

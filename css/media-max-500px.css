@@ -1,322 +1,262 @@
 @media screen and (max-width: 500px) {
-    p{
-        font-size:15.8px;
-    }
-    h2{
-        font-size:22px;
-    }
-    .big-screen{
-        display: none;
-    }
-    .small-screen{
-        display :flex ;
-        align-items : center;
-        justify-content : center;
-        height: 30px ;
-        border-top :none ;  
-        border-bottom :3px solid  #f2f2f2 ;  
-        width : 50%;
-        padding : 20px  0 10px 0 ;
-        text-align: right;
-    }
-    .active{
-        color : #0065FC;
-        border-bottom :3px solid  #0065FC
-        }
-    .mobile-nav{
-        display: flex;
-    }
-    .inscrire{        
-        justify-self: flex-end;
-        margin-left: 5vw;
-        max-height: 55px;
-    }
-    .header{
+  p {
+    font-size: 15.8px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .big-screen {
+    display: none;
+  }
+  .small-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-top: none;
+    border-bottom: 3px solid #f2f2f2;
+    width: 50%;
+    padding: 20px 0 10px 0;
+    text-align: right;
+  }
+  .active {
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .inscrire {
+    justify-self: flex-end;
+    margin-left: 5vw;
+    max-height: 55px;
+  }
+  .header {
     padding: 0 25px 0 20px;
-    }
-    .inscrire-end{
-        justify-content : flex-end;
-        margin-right: 5vw;
-    }
-    .inscrire{
-        width :fit-content;
-        padding :0 0 15px 0 ;
-        max-height: 55px;
-    }
-    .top-link{
-        width :fit-content;
-    }
-    .first-title{
-        margin : 40px  0 0 0;
-    }
-    .first-p{
-        margin : 9px 0px 35px 0px;
-    }
-    .nav{
-        padding :0  20px  0 20px ;
-    }
-    .input{
-        padding-left : 18px ;
-        width : 220px;
-    }
-    .research{
-        display: none;
-    }
-    button{
-        width : 50px;
-        border-radius:  12px ;
-        padding : 0 0px 0 0px ;
-        cursor: pointer;
-        
-    }
-    
-    .fa-search{
-        color : white;
-        display: block;
-        padding : 0 16px ;
-        font-size :1.1rem;
-    }
-    .filtres-container{
-        flex-direction: column;
-    }
-    .filtres{
-        padding-left : 48px;
-        padding-right :18px;
-        margin: 14px 10px 0 0 ;
-    }
-    
-    .filtres h3 {
-        font-size : 16px;
-    }
-    .filtres-title{
-        align-self: flex-start;
-    }
-    .info{
-        position : relative;
-    }
-    .icon-info {
-    position : absolute;
-    top:-5px;
-    
-    }
-    .info p{
-        margin-left :38px;
-    }
-    #hebergement{
-        flex-direction: column-reverse ;
-    }
-    .fa-chart-line{
+  }
+  .inscrire-end {
+    justify-content: flex-end;
+    margin-right: 5vw;
+  }
+  .inscrire {
+    width: fit-content;
+    padding: 0 0 15px 0;
+    max-height: 55px;
+  }
+  .top-link {
+    width: fit-content;
+  }
+  .first-title {
+    margin: 40px 0 0 0;
+  }
+  .first-p {
+    margin: 9px 0px 35px 0px;
+  }
+  .nav {
+    padding: 0 20px 0 20px;
+  }
+  .input {
+    padding-left: 18px;
+    width: 220px;
+  }
+  .research {
+    display: none;
+  }
+  button {
+    width: 50px;
+    border-radius: 12px;
+    padding: 0 0px 0 0px;
+    cursor: pointer;
+  }
+
+  .fa-search {
+    color: white;
+    display: block;
+    padding: 0 16px;
+    font-size: 1.1rem;
+  }
+  .filtres-container {
+    flex-direction: column;
+  }
+  .filtres {
+    padding-left: 48px;
+    padding-right: 18px;
+    margin: 14px 10px 0 0;
+  }
+
+  .filtres h3 {
+    font-size: 16px;
+  }
+  .filtres-title {
+    align-self: flex-start;
+  }
+  .info {
+    position: relative;
+  }
+  .icon-info {
+    position: absolute;
+    top: -5px;
+  }
+  .info p {
+    margin-left: 38px;
+  }
+  #hebergement {
+    flex-direction: column-reverse;
+  }
+  .fa-chart-line {
     font-size: 1.4em;
     transform: scaleX(0.8);
-    
-    }
-    .populaire{
-        padding : 40px 20px 45px 20px  ;
-        margin : 0 ;
-        border-radius: 0;
-        height : 505px ;
-        justify-content:space-between;
-        align-self: center;
-    }
-    .pop-card{
-        width :325px;
-        border : 5px solid white;
-    }
-    .populaire-imgs{
-        align-items: center;
-    }
-    .hebergement{
-       align-self: center;
-        background-color : transparent;
-        padding : 40px 20px 35px 20px  ;
-        margin : 0 ;
-        height: 1370px;
-    }
-    .img-card{
-        width : 323px;
-        background :white;
-        border : 5px solid white;
-    }
-    .hebergement-img-contenair{
-        width : 323px;
-        overflow: hidden;
-        
-    }
-    .hebergement-imgs {
-        justify-content: center;
-        position: relative;
-        top: -0px;
-         height: 1270px; 
-    }
-    .hebergement-img-a{
-        position: absolute ;
-        top : -55px;
-        left : -10px;
-        width:330px;
-    }
-    .hebergement-img-b{
-        position: absolute ;
-        top : -50px;
-        left : 0px;
-        width:330px;
-    }
-    .hebergement-img-c{
-        position: absolute ;
-        top : -50px;
-        left : 0px;
-        width:330px;
-    }
-    .hebergement-img-d{
-        position: absolute ;
-        top : -95px;
-        left : -5px;
-        width:330px;
-    }
-    .hebergement-img-e{
-        position: absolute ;
-        top : -35px;
-        left : -2px;
-        width:330px;
-    }
-    .hebergement-img-f{
-        position: absolute ;
-        top : -190px;
-        left : -2px;
-        width:330px;
-    }
-    .activite{
-        margin : 10px 10px 0 10px ;
-        height: 1330px;
-        align-items: center;
-        
-    }
-    .activite h2{
-        margin-left: 10px;
-        align-self: flex-start;
-    }
-    .activites-imgs{
-        min-width: 500px;
-        flex-direction: column;
-        justify-content: center;
-        height: 1250px;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-    .mb-30px{
-        margin-bottom: 10px;
-        
-    }
-    .activite-img-large-a{
-        position: absolute;
-        top:-20px;
-        left:0px;
-        width : 335px;
-    }
-    .activite-img-b{
-        position: absolute;
-        top:-155px;
-        left:-0px;
-        width : 335px;
-    }
-    .activite-img-c{
-        position: absolute;
-        top:-16px;
-        left:-0px;
-        width : 335px;
-    }
-    .activite-img-large-d{
-        position: absolute;
-        top:-15px;
-        left:0px;
-        width : 335px;
-        filter: contrast(0.7) brightness(1.4) saturate(1.2);
-        
-    }
-    .activite-img-e{
-        position: absolute;
-        top:-12px;
-        left:-0px;
-        width : 335px;
-    }
-    .activite-img-f{
-        position: absolute;
-        top:-30px;
-        left:-0px;
-        width : 335px;
-    }
-    .activite-img-small-contenair-pomegue{
-        position: relative;
-        overflow:hidden;
-        width :335px ;
-        height :135px;
-        border-radius:20px 20px 0px 0px;
-        
-    }
-    .activite-img-small-contenair-frioul{
-        position: relative;
-        overflow:hidden;
-        width :335px ;
-        height :135px;
-        border-radius:20px 20px 0px 0px;
-    }
-    .activite-img-small-contenair-notre{
-        position: relative;
-        overflow:hidden;
-        width :335px ;
-        height :135px;
-        border-radius:20px 20px 0px 0px;
-    }
-    .activite-img-small-contenair-longchamp{
-        position: relative;
-        overflow:hidden;
-        width :335px ;
-        height :135px;
-        border-radius:20px 20px 0px 0px;
-    }
-    .activite-img-big-contenair{
-        position: relative;
-        overflow:hidden;
-        width :335px ;
-        height :135px;
-        border-radius:20px 20px 0px 0px;
-       
-    }
-    .activite-a{
-        flex-direction:column;
-        justify-content:space-between;
-        align-items: center;
-        padding:0;
-        width: 100%;
-        height : 650px
-    }
-    .activite-b{
-        flex-direction:column;
-        justify-content:space-between;
-        align-items: center;
-        padding:0;
-        width: 100%;
-        margin-top : 30px;
-        height : 650px
-    }
-    .activite-c{
-        justify-content:space-between;
-    
-    height:400px;
-    }
-    .activite-d{
-        justify-content:space-between;
-        
-        height:400px;
-    }
-    .shadow{
-        height :fit-content
-    }
-    .footer{
-        flex-direction: column;
-        height :395px;
-        background :#F2F2F2;
-        padding : 45px 0 45px 30px;
-        margin-top: 60px;
-    }
-      }
-    
+  }
+  .populaire {
+    padding: 40px 20px 45px 20px;
+    margin: 0;
+    border-radius: 0;
+    height: 505px;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .pop-card {
+    width: 325px;
+    border: 5px solid white;
+  }
+  .populaire-imgs {
+    align-items: center;
+  }
+  .hebergement {
+    align-self: center;
+    background-color: transparent;
+    padding: 40px 20px 35px 20px;
+    margin: 0;
+    height: 1370px;
+  }
+  .img-card {
+    width: 323px;
+    background: white;
+    border: 5px solid white;
+  }
+  .hebergement-img-contenair {
+    width: 323px;
+    overflow: hidden;
+  }
+  .hebergement-imgs {
+    justify-content: center;
+    position: relative;
+    top: -0px;
+    height: 1270px;
+  }
+  .hebergement-img-a {
+    top: -55px;
+    left: -10px;
+    width: 330px;
+  }
+  .hebergement-img-b {
+    top: -50px;
+    left: 0px;
+    width: 330px;
+  }
+  .hebergement-img-c {
+    top: -50px;
+    left: 0px;
+    width: 330px;
+  }
+  .hebergement-img-d {
+    top: -95px;
+    left: -5px;
+    width: 330px;
+  }
+  .hebergement-img-e {
+    top: -35px;
+    left: -2px;
+    width: 330px;
+  }
+  .hebergement-img-f {
+    top: -190px;
+    left: -2px;
+    width: 330px;
+  }
+  .activite {
+    margin: 10px 10px 0 10px;
+    height: 1330px;
+    align-items: center;
+  }
+  .activite h2 {
+    margin-left: 10px;
+    align-self: flex-start;
+  }
+  .activites-imgs {
+    min-width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    height: 1250px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .mb-30px {
+    margin-bottom: 10px;
+  }
+  .activite-img-large-a {
+    top: -20px;
+    left: 0px;
+    width: 335px;
+  }
+  .activite-img-b {
+    top: -155px;
+    left: -0px;
+    width: 335px;
+  }
+  .activite-img-c {
+    top: -16px;
+    left: -0px;
+    width: 335px;
+  }
+  .activite-img-large-d {
+    top: -15px;
+    left: 0px;
+    width: 335px;
+    filter: contrast(0.7) brightness(1.4) saturate(1.2);
+  }
+  .activite-img-e {
+    top: -12px;
+    left: -0px;
+    width: 335px;
+  }
+  .activite-img-f {
+    top: -30px;
+    left: -0px;
+    width: 335px;
+  }
+  .activite-img-small-contenair-pomegue,
+  .activite-img-small-contenair-frioul,
+  .activite-img-small-contenair-notre,
+  .activite-img-small-contenair-longchamp,
+  .activite-img-big-contenair {
+    width: 335px;
+    height: 135px;
+  }
+
+  .activite-a,.activite-b {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 650px;
+  }
+  .activite-b {
+    margin-top: 30px;
+  }
+  .activite-c,.activite-d {
+    justify-content: space-between;
+    height: 400px;
+  }
+  .shadow {
+    height: fit-content;
+  }
+  .footer {
+    flex-direction: column;
+    height: 395px;
+    background: #f2f2f2;
+    padding: 45px 0 45px 30px;
+    margin-top: 60px;
+  }
+}
