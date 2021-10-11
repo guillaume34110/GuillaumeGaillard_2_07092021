@@ -24,7 +24,10 @@
     .header{
     padding: 0 25px 0 20px;
     }
-    
+    .inscrire-end{
+        justify-content : flex-end;
+        margin-right: 5vw;
+    }
     .inscrire{        
         max-height: 55px;
         justify-self: flex-end;
