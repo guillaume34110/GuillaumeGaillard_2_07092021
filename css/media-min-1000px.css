@@ -29,7 +29,7 @@
      }
     
      .populaire-imgs{
-         height: 550px;;
+         height: 550px;
          flex-wrap: wrap;
          justify-content: space-between;
          flex-direction:column;
