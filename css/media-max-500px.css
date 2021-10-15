@@ -108,11 +108,17 @@
     transform: scaleX(0.8);
   }
   .populaire {
-    padding: 40px 20px 45px 20px;
+    /*padding: 40px 20px 45px 20px;*/
+    padding: 40px 0px 45px 0px;
+    width: 100%;
     margin: 0;
     border-radius: 0;
     height: 505px;
     justify-content: space-between;
+    align-self: center;
+  }
+  .populaire-title {
+    width:325px ;
     align-self: center;
   }
   .pop-card {
@@ -125,9 +131,19 @@
   .hebergement {
     align-self: center;
     background-color: transparent;
-    padding: 40px 20px 35px 20px;
+    /*padding: 40px 20px 35px 20px;*/
+    padding: 40px 0px 35px 0px;
+    width: 100%;
     margin: 0;
     height: 1370px;
+  }
+  .hebergement h3 {
+    width:323px ;
+    align-self: center;
+  }
+  .hebergement h2 {
+    width:323px ;
+    align-self: center;
   }
   .img-card {
     width: 323px;
@@ -175,16 +191,16 @@
     width: 330px;
   }
   .activite {
-    margin: 10px 10px 0 10px;
+    /*margin: 10px 10px 0 10px;*/
+    margin: 10px 0px 0 0px;
     height: 1330px;
     align-items: center;
   }
   .activite h2 {
-    margin-left: 10px;
-    align-self: flex-start;
+    width:335px ;
+    align-self: center;
   }
   .activites-imgs {
-    min-width: 500px;
     flex-direction: column;
     justify-content: center;
     height: 1250px;

@@ -1,0 +1,46 @@
+@media screen and (max-width: 340px) {/*iphon 5 */
+    .pop-card {
+        width: 300px;
+        border: 5px solid white;
+      }
+      .populaire-title {
+        width:300px ;
+        align-self: center;
+      }
+      .hebergement h3 {
+        width:300px ;
+        align-self: center;
+      }
+      .hebergement h2 {
+        width:300px ;
+        align-self: center;
+      }
+      .img-card {
+        width: 300px;
+        background: white;
+        border: 5px solid white;
+      }
+      .hebergement-img-contenair {
+        width: 300px;
+        overflow: hidden;
+      }
+      .activite h2 {
+        width:300px ;
+        align-self: center;
+      }
+      .activite-img-large-a ,
+      .activite-img-b ,
+      .activite-img-c ,
+      .activite-img-large-d ,
+      .activite-img-e ,
+      .activite-img-f ,
+      .activite-img-small-contenair-pomegue,
+      .activite-img-small-contenair-frioul,
+      .activite-img-small-contenair-notre,
+      .activite-img-small-contenair-longchamp,
+      .activite-img-big-contenair {
+        width: 300px;
+       
+      }
+
+}

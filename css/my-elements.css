@@ -1,6 +1,8 @@
 .header{
     padding : 0vh 75px 0vh 55px ;
     height: 90px;
+    max-width: 1311px;
+    margin:auto;
 }
 .footer{
     height :175px;
